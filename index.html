@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Liên Minh Huyền Thoại | Trang chủ chính thức của Liên Minh Huyền Thoại Việt Nam</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="table_header">
+            <div class="logo"></div>
+            <div class="pc_nav">
+                <ul>
+                    <li>
+                        <a href="">TIN TỨC</a>
+                        <div style="float:left;" class="subnav">
+                            <div>
+                                <div class="tintuc">
+                                    <div><a href="">TIN TỨC</a></div>
+                                    <div><a href="">SỰ KIỆN</a></div>
+                                    <div><a href="">TIN GAME</a></div>
+                                    <div><a href="https://www.facebook.com/vnesportstv">ESPORTS</a></div>
+                                    <div><a href="">CỘNG ĐỒNG</a></div>
+                                    <div><a href="">CẨM NANG</a></div>
+                                    <div><a href="">VŨ TRỤ</a></div>
+                                </div>
+                                <div class="gioithieu">
+                                    <div><a href="">GIỚI THIỆU</a></div>
+                                    <div><a href="">TƯỚNG</a></div>
+                                    <div><a href="">TRANG BỊ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">GIỚI THIỆU</a>
+                        <div style="float:left;" class="subnav">
+                            <div>
+                                <div class="tintuc">
+                                    <div><a href="">TIN TỨC</a></div>
+                                    <div><a href="">SỰ KIỆN</a></div>
+                                    <div><a href="">TIN GAME</a></div>
+                                    <div><a href="https://www.facebook.com/vnesportstv">ESPORTS</a></div>
+                                    <div><a href="">CỘNG ĐỒNG</a></div>
+                                    <div><a href="">CẨM NANG</a></div>
+                                    <div><a href="">VŨ TRỤ</a></div>
+                                </div>
+                                <div class="gioithieu">
+                                    <div><a href="">GIỚI THIỆU</a></div>
+                                    <div><a href="">TƯỚNG</a></div>
+                                    <div><a href="">TRANG BỊ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">TẢI GAME</a></li>
+                    <li><a href="https://napthe.vn/app/32787/buy/0">NẠP THẺ</a></li>
+                    <li><a href="https://www.facebook.com/vnesportstv">ESPORTS</a></li>
+                    <li><a href="https://hotro.garena.vn/">HỖ TRỢ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="table1" style="background-image: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/blurred1.jpg);">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/05_2022/202205-84-Topup60-1220x400.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/05_2022/202205-83-CaoBoi-1220x400.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/04_2022/ThienThuc2022_header.jpg" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+                <img src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/05_2022/202205-03-Khaiphabiensau-1220x400.jpg" style="width:100%">
+                
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+    </div>
+</body>
+</html>
