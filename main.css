@@ -28,7 +28,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 75px;
-    margin-top:-85px;
+    margin-top:-75px;
 }
 /* pc */
 ul{
@@ -39,6 +39,7 @@ ul{
     height: 50px;
     display:inline-flex;
     padding:14px 30px;
+    margin-top:10px;
 
 }
 .pc_nav a{
@@ -53,7 +54,7 @@ ul{
     background-color:rgb(174, 222, 237);
     width:100%;
     height:155px;
-    margin-top:56px;
+    margin-top:46px;
     left:0px;
     opacity: 0.9;
     z-index: 2;
