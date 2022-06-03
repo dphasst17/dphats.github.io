@@ -28,7 +28,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 75px;
-    margin-top:-75px;
+    margin-top:-100px;
 }
 /* pc */
 ul{
@@ -76,7 +76,7 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {
     vertical-align: middle;
-    margin-top: 80px;
+    margin-top: 105px;
     z-index:1;
 }
 
