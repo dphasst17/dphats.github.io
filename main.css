@@ -4,13 +4,16 @@
 /* Phan dau trang */
 .header{
     background-color: black;
-    height: 50px;
+    height: 70px;
     top:0;
     left:0;
     right:0;
     font-weight:bolder;
     font-family:'Courier New', Courier, monospace;
     position:relative;
+    position:fixed;
+    z-index: 2;
+
 }
 .table_header{
     padding:0px;
@@ -50,7 +53,7 @@ ul{
     background-color:rgb(174, 222, 237);
     width:100%;
     height:155px;
-    margin-top:36px;
+    margin-top:56px;
     left:0px;
     opacity: 0.9;
     z-index: 2;
