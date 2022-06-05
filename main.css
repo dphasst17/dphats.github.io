@@ -212,5 +212,13 @@ img {
 }
 .logo3{
     margin-left:45%;
-    margin-top:-70px;
+    margin-top:15px;
+    width: 150px;
+    height: 67px;
+    line-height: 52px;
+    font-size: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/vn-12.png) no-repeat;
+    background-size: contain;
 }
