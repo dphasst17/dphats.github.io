@@ -1,6 +1,4 @@
-*{
-    margin: 0;
-}
+*{ margin: 0;text-decoration:none}
 /* Phan dau trang */
 .header{
     background-color: black;
@@ -18,11 +16,9 @@
 .table_header{
     padding:0px;
     display:flex;
-
 }
 /* logo */
 .logo{
-    width: 30%;
     height: 50px;
     display: inline-flex; 
     background-size: contain;
@@ -31,15 +27,17 @@
     margin-top:-100px;
 }
 /* pc */
-ul{
+ul li{
     text-decoration: none;
     list-style-type: none;
 }
 .pc_nav ul li{
-    height: 50px;
+    height: 70px;
     display:inline-flex;
     padding:14px 30px;
     margin-top:10px;
+    margin-left:40px;
+    font-size:18px;
 
 }
 .pc_nav a{
@@ -49,17 +47,17 @@ ul{
 }
 .pc_nav li:hover .subnav {
     position:absolute;
-    display:inline-block;
+    display:block;
+    font-size:30px;
     color:#fff;
     background-color:rgb(174, 222, 237);
     width:100%;
-    height:155px;
+    height:249px;
     margin-top:46px;
     left:0px;
     opacity: 0.9;
     z-index: 2;
 }
-
 .subnav {
     display:none;
     margin-top:50px;
@@ -69,6 +67,22 @@ ul{
     margin-top:15px;
     text-align:center;
     font-size: 19px;
+}
+.tintuc{ margin-left:350px;}
+.tintuc a:hover{
+    color:rgb(33, 13, 208);
+    text-decoration:underline;
+}
+.gioithieu{
+    margin-left:530px;
+    margin-top:-235px;
+}
+.gioithieu a:hover{
+    color:rgb(33, 13, 208);
+    text-decoration:underline;
+}
+.subnav .tintuc .gioithieu:hover{
+    color:rgb(33, 33, 204);
 }
 /* slide img */
 * {box-sizing: border-box;}
@@ -87,9 +101,6 @@ img {
   margin: auto;
 }
 
-
-
-
 /* The dot */
 .dot {
   height: 15px;
@@ -102,9 +113,8 @@ img {
   margin-bottom: auto;
 }
 
-.active {
-  background-color: #717171;
-}
+.active {background-color: #717171;}
+
 
 /* Fading animation */
 .fade {
@@ -122,30 +132,88 @@ img {
   .text {font-size: 11px}
 }
 
-/* News */
-.tintuc{
-    margin-left:600px;
-}
-.gioithieu{
-    margin-left:740px;
-    margin-top:-149px;
-}
-/* Than 1 */
+
+/* background-slide */
 .table1{
     width: 100%;
     height:500px;
     background-size: 100% 100%;
 }
+/* Main-News */
 .main{
     background-color:#fff;
     width:auto;
-    height:1420px;
+    height:1300px;
+    color:black;
 }
+.main a{
+    color:#000;
+    text-align:center;
+}
+.line{
+    margin-left:110px;
+    margin-top:80px;
+    border-radius: 0px 30px 0px 30px;
+    border-style:solid;
+    border-color:rgb(222, 211, 211);
+    background-color:rgb(253, 253, 253);
+    width:350px;
+    height:390px;
+    display:inline-flex;   
+}
+.line:hover{border-radius: 0px;}
+.line1{
+    margin-left:110px;
+    margin-top:150px;
+    border-radius: 0px 30px 0px 30px;
+    border-style:solid;
+    border-color:rgb(222, 211, 211);
+    background-color:rgb(253, 253, 253);
+    width:350px;
+    height:390px;
+    display:inline-flex;
+    
+}
+.line1:hover{
+    border-radius: 0px;
+}
+
+.new1 .new2 .new3 .new4 .new5 .new6{
+    display: inline-block; 
+    background-repeat: no-repeat;
+}
+.more{
+    margin-top:130px;
+    margin-left:680px;
+    position: absolute;
+}
+.more:hover{
+    text-decoration:underline;
+}
+
+/* End */
 .endpage{
     background-color: black;
-    height: 350px;
+    height: 500px;
     width:auto;
     top:0;
     left:0;
     right:0;
+}
+.logo2 {
+    width: 0;
+    height: 0;
+    fill: #f9f9f9;
+    position: relative;
+    margin-left:40%;
+
+}
+.fact{
+    color:#fff;
+    text-align:center;
+    margin-top:150px;
+}
+.logo3{
+    margin-left:45%;
+    margin-top:-70px;
 }
