@@ -153,7 +153,7 @@ img {
 .line{
     margin-left:110px;
     margin-top:80px;
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0px -2px 0px 0px;
     border-style:solid;
     border-color:rgb(222, 211, 211);
     background-color:rgb(253, 253, 253);
@@ -161,11 +161,11 @@ img {
     height:390px;
     display:inline-flex;   
 }
-.line:hover{border-radius: 0px;}
+.line:hover{border-radius: 0px 0px 20px 20px;}
 .line1{
     margin-left:110px;
     margin-top:150px;
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0px 0px 0px 0px;
     border-style:solid;
     border-color:rgb(222, 211, 211);
     background-color:rgb(253, 253, 253);
@@ -174,10 +174,7 @@ img {
     display:inline-flex;
     
 }
-.line1:hover{
-    border-radius: 0px;
-}
-
+.line1:hover{border-radius: 0px 0px 20px 20px;}
 .new1 .new2 .new3 .new4 .new5 .new6{
     display: inline-block; 
     background-repeat: no-repeat;
