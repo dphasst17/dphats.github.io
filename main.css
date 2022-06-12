@@ -235,11 +235,11 @@ img {
 @media (max-width:376px) 
 {
     html{
-        width:375px;
+        width:376px;
     }
     .header
     {
-        width:375px;
+        width:376px;
         position:relative;
         position:fixed;
     }
@@ -253,12 +253,12 @@ img {
     }
     .table1
     {
-        width:auto;
+        width:376px;
         height:auto;
     }
     .main
     {
-        width:auto;
+        width:376px;
     }
     .line{
         display:none;
@@ -273,7 +273,7 @@ img {
         display:none;
     }
     .endpage{
-        width:auto;
+        width:376px;
     }
     .logo2{
         margin-left:55px;
